@@ -1,0 +1,74 @@
+*{
+ 	margin: 0; padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: whitesmoke;
+}		
+
+/*global components classes start*/
+.gradiant-bg{
+	background: #011DC3;
+	background-image: linear-gradient(to right, #474eda, #4347d9, #403fd8, #3e36d7, #3c2dd6)!important;
+	background-image: -moz-linear-gradient(to right, #474eda, #4347d9, #403fd8, #3e36d7, #3c2dd6)!important;
+	background-image: -webkit-linear-gradient(to right, #474eda, #4347d9, #403fd8, #3e36d7, #3c2dd6)!important;
+
+}
+/*global components over*/
+
+/* Contact Us CSS */
+.header{
+	background-size: auto;
+	background: linear-gradient(to right top, #0568fd, #0078fd, #0087f9, #0093f3, #129eeb);
+	background-image: url('../images/cbg.png')!important;
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	width: 100%;
+	padding: 150px 0;
+}
+.c-circle{
+	width: 120px;
+	height: 120px;
+}
+/* Contact Us CSS over */
+
+/*404 start */
+.error-body{
+	font-family: "montserrat",sans-serif;
+	min-ehight: 100vh;
+	height: 100vh;
+}
+.error-container h1{
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: 5px;
+}
+.error-container a{
+    border-radius: 25px;
+    transition: 0.4s;
+}
+.error-container a:hover{
+    background: #111114!important;
+}
+/*404 over */
+
+/*login page*/
+.box-bg{
+	width: 550px;
+	max-width: 100%;
+	height: auto;
+}
+.bg-login{
+	background-size: auto;
+	background: linear-gradient(to right top, #0568fd, #0078fd, #0087f9, #0093f3, #129eeb);
+	background-image: url('../images/cbg.png')!important;
+	background-position: center center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	max-width: 100%;
+	width: 550px;
+	padding: 75px 0;
+}
+/*login page over*/
